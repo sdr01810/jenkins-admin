@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- -*- tab-width: 4; fill-column: 96 -*- -->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.steve_rogers</groupId>
+	<artifactId>sdr-jenkins-admin</artifactId>
+	<version>1.0.0</version>
+	<packaging>jar</packaging>
+
+	<description>A collection of administration scripts for Jenkins</description>
+	<name>${project.artifactId}</name>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+		<!--dependency versions:-->
+		<!--(none yet)-->
+
+		<!--plugin versions:-->
+		<!--(none yet)-->
+
+	</properties>
+
+	<organization>
+		<name>Stephen D. Rogers</name>
+		<url>http://github.com/sdr01810</url>
+	</organization>
+
+	<developers>
+		<developer>
+			<id>srogers</id>
+			<name>Stephen Rogers</name>
+			<email>inbox.c7r@steve-rogers.com</email>
+			<roles>
+				<role>creator</role>
+				<role>developer</role>
+			</roles>
+		</developer>
+	</developers>
+
+	<dependencies>
+	</dependencies>
+
+	<build>
+		<defaultGoal>verify</defaultGoal>
+		<plugins>
+		</plugins>
+	</build>
+</project>
